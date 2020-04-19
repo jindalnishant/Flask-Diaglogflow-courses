@@ -1,0 +1,10 @@
+
+---
+applications:
+- name: courses_bot
+  memory: 1024MB
+  disk_quota: 1GB
+  random-route: true
+  parameters:
+    memory: 1025M
+    buildpack: 'python_buildpack'
